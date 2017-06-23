@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C45AA6E1EFCF8A200B33495 /* NSString+LXCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C45AA6D1EFCF8A200B33495 /* NSString+LXCategory.m */; };
+		8C45AA711EFCFAD400B33495 /* NSDateUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C45AA701EFCFAD400B33495 /* NSDateUtility.m */; };
 		8C6EB8A51EFCBCC200A80034 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6EB8A41EFCBCC200A80034 /* main.m */; };
 		8C6EB8A81EFCBCC200A80034 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6EB8A71EFCBCC200A80034 /* AppDelegate.m */; };
 		8C6EB8AB1EFCBCC200A80034 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6EB8AA1EFCBCC200A80034 /* ViewController.m */; };
@@ -22,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C45AA6C1EFCF8A200B33495 /* NSString+LXCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+LXCategory.h"; path = "Foundation/NSString+LXCategory.h"; sourceTree = "<group>"; };
+		8C45AA6D1EFCF8A200B33495 /* NSString+LXCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+LXCategory.m"; path = "Foundation/NSString+LXCategory.m"; sourceTree = "<group>"; };
+		8C45AA6F1EFCFAD400B33495 /* NSDateUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSDateUtility.h; path = Foundation/NSDateUtility.h; sourceTree = "<group>"; };
+		8C45AA701EFCFAD400B33495 /* NSDateUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSDateUtility.m; path = Foundation/NSDateUtility.m; sourceTree = "<group>"; };
 		8C6EB8A01EFCBCC200A80034 /* LXUtility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXUtility.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C6EB8A41EFCBCC200A80034 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8C6EB8A61EFCBCC200A80034 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,6 +63,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C45AA6B1EFCF7EC00B33495 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				8C45AA6C1EFCF8A200B33495 /* NSString+LXCategory.h */,
+				8C45AA6D1EFCF8A200B33495 /* NSString+LXCategory.m */,
+				8C45AA6F1EFCFAD400B33495 /* NSDateUtility.h */,
+				8C45AA701EFCFAD400B33495 /* NSDateUtility.m */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
 		8C6EB8971EFCBCC200A80034 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +93,7 @@
 		8C6EB8A21EFCBCC200A80034 /* LXUtility */ = {
 			isa = PBXGroup;
 			children = (
+				8C45AA6B1EFCF7EC00B33495 /* Foundation */,
 				8C6EB8BA1EFCBCFC00A80034 /* UIKit */,
 				8C6EB8A61EFCBCC200A80034 /* AppDelegate.h */,
 				8C6EB8A71EFCBCC200A80034 /* AppDelegate.m */,
@@ -189,11 +207,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C6EB8AB1EFCBCC200A80034 /* ViewController.m in Sources */,
+				8C45AA6E1EFCF8A200B33495 /* NSString+LXCategory.m in Sources */,
 				8C6EB8CB1EFCBCFC00A80034 /* UITableView+LXCategory.m in Sources */,
 				8C6EB8C71EFCBCFC00A80034 /* UIColor+LXCategory.m in Sources */,
 				8C6EB8CA1EFCBCFC00A80034 /* UIImageView+LXCategory.m in Sources */,
 				8C6EB8C81EFCBCFC00A80034 /* UIControl+LXCategory.m in Sources */,
 				8C6EB8CC1EFCBCFC00A80034 /* UIView+LXCategory.m in Sources */,
+				8C45AA711EFCFAD400B33495 /* NSDateUtility.m in Sources */,
 				8C6EB8C91EFCBCFC00A80034 /* UIImage+LXCategory.m in Sources */,
 				8C6EB8A81EFCBCC200A80034 /* AppDelegate.m in Sources */,
 				8C6EB8A51EFCBCC200A80034 /* main.m in Sources */,
