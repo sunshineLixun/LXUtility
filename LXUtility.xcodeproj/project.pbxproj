@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C2D9C591F4D162300388EF1 /* NSAttributedString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2D9C581F4D162300388EF1 /* NSAttributedString+Size.m */; };
 		8C45AA6E1EFCF8A200B33495 /* NSString+LXCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C45AA6D1EFCF8A200B33495 /* NSString+LXCategory.m */; };
 		8C45AA711EFCFAD400B33495 /* NSDateUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C45AA701EFCFAD400B33495 /* NSDateUtility.m */; };
 		8C6EB8A51EFCBCC200A80034 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6EB8A41EFCBCC200A80034 /* main.m */; };
@@ -24,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C2D9C571F4D162300388EF1 /* NSAttributedString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+Size.h"; path = "Foundation/NSAttributedString+Size.h"; sourceTree = "<group>"; };
+		8C2D9C581F4D162300388EF1 /* NSAttributedString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+Size.m"; path = "Foundation/NSAttributedString+Size.m"; sourceTree = "<group>"; };
 		8C45AA6C1EFCF8A200B33495 /* NSString+LXCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+LXCategory.h"; path = "Foundation/NSString+LXCategory.h"; sourceTree = "<group>"; };
 		8C45AA6D1EFCF8A200B33495 /* NSString+LXCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+LXCategory.m"; path = "Foundation/NSString+LXCategory.m"; sourceTree = "<group>"; };
 		8C45AA6F1EFCFAD400B33495 /* NSDateUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSDateUtility.h; path = Foundation/NSDateUtility.h; sourceTree = "<group>"; };
@@ -70,6 +73,8 @@
 				8C45AA6D1EFCF8A200B33495 /* NSString+LXCategory.m */,
 				8C45AA6F1EFCFAD400B33495 /* NSDateUtility.h */,
 				8C45AA701EFCFAD400B33495 /* NSDateUtility.m */,
+				8C2D9C571F4D162300388EF1 /* NSAttributedString+Size.h */,
+				8C2D9C581F4D162300388EF1 /* NSAttributedString+Size.m */,
 			);
 			name = Foundation;
 			sourceTree = "<group>";
@@ -212,6 +217,7 @@
 				8C6EB8C71EFCBCFC00A80034 /* UIColor+LXCategory.m in Sources */,
 				8C6EB8CA1EFCBCFC00A80034 /* UIImageView+LXCategory.m in Sources */,
 				8C6EB8C81EFCBCFC00A80034 /* UIControl+LXCategory.m in Sources */,
+				8C2D9C591F4D162300388EF1 /* NSAttributedString+Size.m in Sources */,
 				8C6EB8CC1EFCBCFC00A80034 /* UIView+LXCategory.m in Sources */,
 				8C45AA711EFCFAD400B33495 /* NSDateUtility.m in Sources */,
 				8C6EB8C91EFCBCFC00A80034 /* UIImage+LXCategory.m in Sources */,
